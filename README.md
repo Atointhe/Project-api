@@ -37,7 +37,6 @@
 
 Папка uploads до создания папки dir
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/5a4ab456-bc5a-4972-813e-d54df5233856)
-![image](https://github.com/Atointhe/Project-api/assets/119871255/75a565c8-ca33-44af-b9b0-be500cf08403)
 
 Вызов метода createDir: 
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/75a565c8-ca33-44af-b9b0-be500cf08403)
