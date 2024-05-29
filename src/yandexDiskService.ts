@@ -167,6 +167,11 @@ class YandexDiskService {
       };
     }
   }
+  public async disk_resources_delete(deletePath: string): Promise<any> {
+    const arrParams = { path: deletePath };
+    const urlQuery = 'https://cloud-api.yandex.net/v1/disk/resources';
+    return this.sendQueryYaDisk(urlQuery, arrParams, 'DELETE');
+  }
 }
 
 export default YandexDiskService;
