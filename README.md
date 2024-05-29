@@ -25,11 +25,13 @@
 Получение информации о файлах диска(вызов GetResources.ts):
 
 Существующие папки/файлы(Active Directories)
+
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/c1021d7a-cf49-4330-b17e-d4e901abbb18)
 
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/2c12041a-feff-4142-b2e9-5babf5a5b6c9)
 
 Содержимое корзины(Trash Directories)
+
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/8feb9a31-a4b3-469b-aa47-2ff61c242625)
 
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/99193be4-5f82-42fe-acf1-22dd984e06b2)
