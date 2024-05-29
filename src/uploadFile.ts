@@ -16,8 +16,8 @@ dotenv.config();
   const yandexDiskService = new YandexDiskService(token, allowedExtensions, allowedContentTypes, maxFileSize);
 
   try {
-    const filePath = 'C:/Users/nikit/Pictures/IMG_4183.jpg';  // Укажите полный путь к вашему файлу
-    const uploadResponse = await yandexDiskService.disk_resources_upload(filePath, '/uploads');
+    const filePath = 'C:/Users/nikit/Pictures/IMG_4183.jpg';  // Путь к файлу, который нужно загрузить на диск
+    const uploadResponse = await yandexDiskService.disk_resources_upload(filePath, '/uploads'); // Путь, куда загружается файл
     console.log('Upload Response:', uploadResponse);
   } catch (error) {
     console.error((error as any).message);

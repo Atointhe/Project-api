@@ -15,7 +15,7 @@ dotenv.config();
   const yandexDiskService = new YandexDiskService(token, allowedExtensions, allowedContentTypes, maxFileSize);
 
   try {
-    const deletePath = '/uploads/test.docx';  // Укажите путь к ресурсу, который нужно удалить
+    const deletePath = '/uploads/test.docx';  // Путь к ресурсу, который нужно удалить
     const deleteResponse = await yandexDiskService.disk_resources_delete(deletePath);
     console.log('Delete Response:', deleteResponse);
   } catch (error) {

@@ -16,8 +16,8 @@ dotenv.config();
   const yandexDiskService = new YandexDiskService(token, allowedExtensions, allowedContentTypes, maxFileSize);
 
   try {
-    const filePath = '/uploads/IMG_4183.jpg';  
-    const downloadDir = 'C:/Users/nikit/api';  
+    const filePath = '/uploads/IMG_4183.jpg';  // Путь к файлу на яндекс диске
+    const downloadDir = 'C:/Users/nikit/api';  // Путь к директории, куда нужно скачать файл
     const downloadResponse = await yandexDiskService.disk_resources_download(filePath, downloadDir);
     console.log('Download Response:', downloadResponse);
   } catch (error) {
