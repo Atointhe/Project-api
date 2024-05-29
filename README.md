@@ -1,4 +1,5 @@
 .env файл с указанием переменных окружения:
+
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/1231126e-e439-4198-b577-b1a07d8b8224)
 
 Загрузка файла на диск(вызов UploadFile.ts):
@@ -36,10 +37,13 @@
 Создание папки(вызов CreateDir.ts):
 
 Папка uploads до создания папки dir
-![image](https://github.com/Atointhe/Project-api/assets/119871255/5a4ab456-bc5a-4972-813e-d54df5233856)
+
+![image](https://github.com/Atointhe/Project-api/assets/119871255/75a565c8-ca33-44af-b9b0-be500cf08403)
+
 
 Вызов метода createDir: 
-![image](https://github.com/Atointhe/Project-api/assets/119871255/75a565c8-ca33-44af-b9b0-be500cf08403)
+
+![image](https://github.com/Atointhe/Project-api/assets/119871255/5a4ab456-bc5a-4972-813e-d54df5233856)
 
 ![image](https://github.com/Atointhe/Project-api/assets/119871255/b9fa0e8e-d23a-4b27-a230-d772521f2029)
 
